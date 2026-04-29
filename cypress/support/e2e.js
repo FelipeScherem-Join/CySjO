@@ -1,4 +1,5 @@
 import './commands'
+import './commandsFuncoes'
 
 
 beforeEach(() => {

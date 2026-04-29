@@ -3,14 +3,13 @@ describe('US001 - Login', () => {
   const metodosDeLogin = ['Email', 'Token', 'Google', 'Facebook']
 
   metodosDeLogin.forEach((metodo) => {
-    it(`Login por ${metodo}`, () => {
+    it.only(`Login por ${metodo}`, () => {
       cenariosDeLogin(metodo)
     })
   })
 
   it('Login credenciais invalidas', () => {
-    //Entre com um email válido
-    //Usuário e/ou senha incorretos
+
   })
 
   it('Logout',() => {
